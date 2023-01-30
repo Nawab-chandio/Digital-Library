@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Login Page</title>
+</head>
+<style>
+.bg{
+	background-color:white;
+	}
+.rang{
+	border:3px dashed;
+	font-size: 16px;
+	width: 400px;
+	height: 430px;
+	padding:20px;
+	margin-top:40px;
+	margin-left:450px;
+	background-image:url(Images/1.jpg);
+}
+.tex:hover{
+	transform:scale(1.1);
+	z-index:2;
+	}
+.tex{
+	font-size:20px;
+	overflow: hidden;
+	}
+	
+
+</style>
+<body style="background-color:#Ffeed6;">
+<div class="rang">
+
+
+
+<h1 class="bg">Welcome To digital Library</h1>
+
+<input id="input1" type="text" placeholder="User Name " div class="tex"></br></br>
+<input id="input2"  type="text" placeholder="Password " div class="tex">
+<br><br>
+<button onclick="alph()" div class="tex"> Login </button><br><br><br><br><br><br><br>
+<h2><mark>A Room Without Books is like A Body Without Soul...!</br></br>Cicero</mark></h2>
+
+<h1 id="exp" style="color:red;"></h1>
+
+
+<script>
+
+function alph(){
+var text;
+let word = input1.value;
+let word2 = input2.value;
+
+if(word =='nawabcs77@gmail.com' && word2 == 1234){
+	text="<a href='dashboard.html'>Click Here To Enter Library</a>";
+	document.getElementById("exp").innerHTML=text;
+}
+
+else {
+	text="Wrong Password";
+	document.getElementById("test").innerHTML=text;
+}
+
+}
+
+</script>
+</div>
+</body>
+</html>
+
+
+
+
